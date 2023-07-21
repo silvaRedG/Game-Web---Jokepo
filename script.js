@@ -47,7 +47,7 @@ const play = (human, cpu) => {
 
 function startPage() {
     document.querySelector("body").addEventListener("click", function () {
-      window.location.href = "../index2.html";
+      window.location.href = "./index2.html";
     });
   
     // Adicione a classe de animação à página atual
@@ -55,6 +55,6 @@ function startPage() {
   
     // Espere a animação terminar antes de redirecionar para a página 2
     setTimeout(function () {
-      window.location.href = "../index2.html";
+      window.location.href = "./index2.html";
     }, 1000); // 1000ms = 1 segundo
   }
