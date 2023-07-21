@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=Noto+Serif:wght@400;700&family=Poppins:wght@200&family=Roboto+Mono:wght@400;700&family=Tektur:wght@400;500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background: url(https://source.unsplash.com/1600x900/?landscape&_gl=1*7ad761*_ga*MTI3Njc3NjAxNy4xNjc1NDc2MDk3*_ga_37GXT4VGQK*MTY4OTgxNjMwOC4xNjEuMS4xNjg5ODE2NDA1LjAuMC4w);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.start-the-game{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(circle at 50% -20.71%, #e459ea 0, #c84ded 16.67%, #a544f0 33.33%, #783cf2 50%, #2538f4 66.67%, #0039f5 83.33%, #003af6 100%);
+    padding: 20px;
+    border: solid 1px red;
+    height: 50vh;
+    color: #f0ffff;
+    border: none;
+    border-radius: 30px;
+    font-family: 'Lugrasimo', sans-serif;
+
+}
+
+
+button{
+    position: relative;
+    bottom: -10%;
+    width: 20vw;
+    height: 5vh;
+    border: none;
+    border-radius: 20px;
+    color: #111111;
+    font-size: 20px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-family: 'Lugrasimo', sans-serif;
+}
+
+button:hover{
+    background-color: #7fff00;
+    transition: 0.5s ease-in-out;
+    transform: scale(0.9);
+}

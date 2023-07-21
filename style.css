@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(https://source.unsplash.com/1600x900/?landscape&_gl=1*7ad761*_ga*MTI3Njc3NjAxNy4xNjc1NDc2MDk3*_ga_37GXT4VGQK*MTY4OTgxNjMwOC4xNjEuMS4xNjg5ODE2NDA1LjAuMC4w);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(180deg, #a7c0c6 0, #a8bfc8 6.25%, #a9bfc9 12.5%, #abbeca 18.75%, #acbecb 25%, #afbdcc 31.25%, #b1bccc 37.5%, #b3bccc 43.75%, #b6bbcc 50%, #b9bacc 56.25%, #bbbacb 62.5%, #beb9ca 68.75%, #c1b8c8 75%, #c3b8c7 81.25%, #c5b7c5 87.5%, #c7b7c3 93.75%, #c9b6c1 100%);
+    padding: 30px;
+    border-radius: 10px;
+    gap: 10px;
+    border: dashed  5px rgb(10, 10, 10);
+}
+
+
+button{
+    padding: 15px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    transition: opacity 0.5s ease-in-out;
+    
+}
+
+button:hover{
+    opacity: 0.5;
+}
+
+#buttons{
+    margin: 30px 0;
+    display: flex;
+    gap: 40px;
+}
+
+#rock{
+    background-color: rgb(39, 26, 221);
+}
+
+#paper{
+    background-color: #e90e0e;
+}
+
+p{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.score span{
+    color: #0000ff;
+}
+
+.cpu-score span{
+    color: #b47016;
+}
