@@ -66,3 +66,17 @@ p{
 .cpu-score span{
     color: #b47016;
 }
+
+
+@media screen and (max-width: 700px){
+
+body{
+    min-height: 50vh;
+}
+
+#game{
+    border: none;
+}
+
+
+}
